@@ -9,6 +9,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
+// 双指针，一个for循环往后推进，计算i后面的元素是否有满足条件的三元组
 var threeSum = function (nums) {
     if (nums.length < 3) return [];
     nums.sort((a, b) => a - b);

@@ -9,6 +9,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
+// 贪心求解，只需要计算每一个元素能到达的最大下标位置，超过数组长度则返回true
 var canJump = function (nums) {
     let jump = nums[0];
     let p = 0;

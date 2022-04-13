@@ -10,6 +10,7 @@
  * @param {number} target
  * @return {number[]}
  */
+// 解法： 双指针，两头往中间查找
 var twoSum = function (numbers, target) {
     let left = 0,
         right = numbers.length - 1;
